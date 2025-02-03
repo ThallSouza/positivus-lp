@@ -8,7 +8,12 @@ export default {
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      'mont-thin': ['Montserrat Alternates', 'sans-serif'],
+      colors: {
+  			background: '#F3F2EC',
+      }
+    },
   },
   darkMode: "class",
   plugins: [heroui()]

@@ -1,83 +1,65 @@
-import { Button } from "@heroui/button"
-import {Card} from "@heroui/card";
-import IlusCard1 from "../assets/cards/illustration-card1.svg"
-import IlusCard2 from "../assets/cards/illustration-card2.svg"
-import IlusCard3 from "../assets/cards/illustration-card3.svg"
-import IlusCard4 from "../assets/cards/illustration-card4.svg"
-import IlusCard5 from "../assets/cards/illustration-card5.svg"
-import IlusCard6 from "../assets/cards/illustration-card6.svg"
+import Pesquisa from "../assets/roadmap/pesquisa.svg"
+import Definicao from "../assets/roadmap/definicao.svg"
 
 export function Services() {
 
     return (
-      <div className="flex flex-col justify-between items-center gap-10" style={{paddingInline:'10%'}}>
-        
-        <div className="grid grid-cols-2 gap-10">
-            <Card className="bg-neutral-200 border-neutral-950 border-2 border-b-5 shadow-none grid grid-cols-2 p-8 gap-12">
-                <div className="flex flex-col justify-between">
-                    <h3 className="text-3xl font-medium text-neutral-950">Search engine optimization</h3>
-                    <Button>Learn more</Button>
+        <div className="grid grid-cols-4 justify-between items-center gap-4" style={{paddingInline:'10%'}}>
+            <h1 className="montserrat-alternates-black text-3xl">Hellow</h1>
+
+            <div className="bg-white shadow-none rounded-3xl px-6 pt-6">
+                <div className="flex flex-row justify-between pb-6">
+                    <img src={Pesquisa} alt='Logo' className='imagem'/>
+                    <p className="montserrat-alternates-semibold text-3xl text-neutral-200">01</p>
                 </div>
-                <div className="p-5">
-                    <img src={IlusCard1} alt='Logo' className='imagem'/>
+                <div className="flex flex-col justify-between gap-3 pb-10">
+                    <h3 className="montserrat-alternates-bold text-xl text-neutral-800">Pesquisa</h3>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Dados do mercado</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Análise de competidores</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Blogs & Comunidades</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Entrevista com usuários</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400"> .</p>
                 </div>
-                
-            </Card>
-            <Card className="bg-lime-400 border-neutral-950 border-2 border-b-5 shadow-none grid grid-cols-2 p-8 gap-12">
-                <div className="flex flex-col justify-between">
-                    <h3 className="text-3xl font-medium text-neutral-950">Search engine optimization</h3>
-                    <Button>Learn more</Button>
+                <div className="flex justify-center">
+                        <hr className="pesquisa"/>
+                </div>    
+            </div>
+
+            <div className="bg-white shadow-none rounded-3xl px-6 pt-6">
+                <div className="flex flex-row justify-between pb-6">
+                    <img src={Definicao} alt='Logo' className='imagem'/>
+                    <p className="montserrat-alternates-semibold text-3xl text-neutral-200">02</p>
                 </div>
-                <div className="p-5">
-                    <img src={IlusCard2} alt='Logo' className='imagem'/>
+                <div className="flex flex-col justify-between gap-3 pb-10">
+                    <h3 className="montserrat-alternates-bold text-xl text-neutral-800">Definição</h3>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Branding</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Personas</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Jornada dos usuários</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Storytelling</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Definição de features V1</p>
                 </div>
-                
-            </Card>
+                <div className="flex justify-center">
+                        <hr className="definicao"/>
+                </div>    
+            </div>
+
+            <div className="bg-white shadow-none rounded-3xl px-6 pt-6">
+                <div className="flex flex-row justify-between pb-6">
+                    <img src={Definicao} alt='Logo' className='imagem'/>
+                    <p className="montserrat-alternates-semibold text-3xl text-neutral-200">02</p>
+                </div>
+                <div className="flex flex-col justify-between gap-3 pb-10">
+                    <h3 className="montserrat-alternates-bold text-xl text-neutral-800">Definição</h3>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Branding</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Personas</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Jornada dos usuários</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Storytelling</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Definição de features V1</p>
+                </div>
+                <div className="flex justify-center">
+                        <hr className="definicao"/>
+                </div>    
+            </div>
         </div>
-        <div className="grid grid-cols-2 gap-10">
-            <Card className="bg-neutral-950 border-neutral-950 border-2 border-b-5 shadow-none grid grid-cols-2 p-8 gap-12">
-                <div className="flex flex-col justify-between">
-                    <h3 className="text-3xl font-medium text-neutral-50">Search engine optimization</h3>
-                    <Button>Learn more</Button>
-                </div>
-                <div className="p-5">
-                    <img src={IlusCard3} alt='Logo' className='imagem'/>
-                </div>
-                
-            </Card>
-            <Card className="bg-neutral-200 border-neutral-950 border-2 border-b-5 shadow-none grid grid-cols-2 p-8 gap-12">
-                <div className="flex flex-col justify-between">
-                    <h3 className="text-3xl font-medium text-neutral-950">Search engine optimization</h3>
-                    <Button>Learn more</Button>
-                </div>
-                <div className="p-5">
-                    <img src={IlusCard4} alt='Logo' className='imagem'/>
-                </div>
-                
-            </Card>
-        </div>
-        <div className="grid grid-cols-2 gap-10">
-            <Card className="bg-lime-400 border-neutral-950 border-2 border-b-5 shadow-none grid grid-cols-2 p-8 gap-12">
-                <div className="flex flex-col justify-between">
-                    <h3 className="text-3xl font-medium text-neutral-950">Search engine optimization</h3>
-                    <Button>Learn more</Button>
-                </div>
-                <div className="p-5">
-                    <img src={IlusCard6} alt='Logo' className='imagem'/>
-                </div>
-                
-            </Card>
-            <Card className="bg-neutral-950 border-neutral-950 border-2 border-b-5 shadow-none grid grid-cols-2 p-8 gap-12">
-                <div className="flex flex-col justify-between">
-                    <h3 className="text-3xl font-medium text-neutral-50">Search engine optimization</h3>
-                    <Button>Learn more</Button>
-                </div>
-                <div className="p-5">
-                    <img src={IlusCard5} alt='Logo' className='imagem'/>
-                </div>
-                
-            </Card>
-        </div>
-      </div>
     )
   }
