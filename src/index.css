@@ -14,6 +14,18 @@
   width:60%;  
 }
 
+.prototipacao{
+  border-bottom: 8px solid #0095EB;
+  border-radius: 4px;
+  width:60%;  
+}
+
+.analise{
+  border-bottom: 8px solid #FE5B5E;
+  border-radius: 4px;
+  width:60%;  
+}
+
 .montserrat-alternates-thin {
     font-family: "Montserrat Alternates", serif;
     font-weight: 100;

@@ -1,12 +1,12 @@
 import Pesquisa from "../assets/roadmap/pesquisa.svg"
 import Definicao from "../assets/roadmap/definicao.svg"
+import Prototipacao from "../assets/roadmap/prototipacao.svg"
+import Analise from "../assets/roadmap/analise.svg"
 
 export function Services() {
 
     return (
         <div className="grid grid-cols-4 justify-between items-center gap-4" style={{paddingInline:'10%'}}>
-            <h1 className="montserrat-alternates-black text-3xl">Hellow</h1>
-
             <div className="bg-white shadow-none rounded-3xl px-6 pt-6">
                 <div className="flex flex-row justify-between pb-6">
                     <img src={Pesquisa} alt='Logo' className='imagem'/>
@@ -45,19 +45,37 @@ export function Services() {
 
             <div className="bg-white shadow-none rounded-3xl px-6 pt-6">
                 <div className="flex flex-row justify-between pb-6">
-                    <img src={Definicao} alt='Logo' className='imagem'/>
-                    <p className="montserrat-alternates-semibold text-3xl text-neutral-200">02</p>
+                    <img src={Prototipacao} alt='Logo' className='imagem'/>
+                    <p className="montserrat-alternates-semibold text-3xl text-neutral-200">03</p>
                 </div>
                 <div className="flex flex-col justify-between gap-3 pb-10">
-                    <h3 className="montserrat-alternates-bold text-xl text-neutral-800">Definição</h3>
-                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Branding</p>
-                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Personas</p>
-                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Jornada dos usuários</p>
-                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Storytelling</p>
-                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Definição de features V1</p>
+                    <h3 className="montserrat-alternates-bold text-xl text-neutral-800">Prototipação</h3>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Arquitetura do App</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Design System</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Wireframe</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Alta Fidelidade</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Navegável</p>
                 </div>
                 <div className="flex justify-center">
-                        <hr className="definicao"/>
+                        <hr className="prototipacao"/>
+                </div>    
+            </div>
+
+            <div className="bg-white shadow-none rounded-3xl px-6 pt-6">
+                <div className="flex flex-row justify-between pb-6">
+                    <img src={Analise} alt='Logo' className='imagem'/>
+                    <p className="montserrat-alternates-semibold text-3xl text-neutral-200">04</p>
+                </div>
+                <div className="flex flex-col justify-between gap-3 pb-10">
+                    <h3 className="montserrat-alternates-bold text-xl text-neutral-800">Análise</h3>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Teste com usuários</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Pesquisa com forncedores</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400">Pesquisa com usuários</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400"> .</p>
+                    <p className="montserrat-alternates-medium text-sm text-neutral-400"> .</p>
+                </div>
+                <div className="flex justify-center">
+                        <hr className="analise"/>
                 </div>    
             </div>
         </div>
